@@ -12,7 +12,7 @@ class CreateTodo extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    this.props.addTodo(this.state)
+    this.props.addTod(this.state)
     this.setState({text: ''})
   }
 
